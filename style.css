@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('young-man-wearing-virtual-reality-goggles.webp');
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+.waraper{
+    background: transparent;
+    width: 430px;
+    height: 400px;
+    backdrop-filter: blur(20px);
+    padding: 30px 40px;
+    border-radius: 30px;
+    
+}
+.waraper h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.waraper h1:hover{
+    color: rgba(246, 217, 0, 0.879);
+}
+.waraper .user{
+    width: 100%;
+    height: 60px;
+    margin: 30px 0px;
+   
+}
+.waraper .pass{
+    width: 100%;
+    height: 60px;
+    margin: 30px 0px;
+}
+.waraper input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(29, 23, 23, 0.767);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+}
+.waraper input::placeholder{
+  color: rgb(211, 216, 220);   
+  cursor: alias; 
+  font-weight: 700;
+}
+.waraper .remmember{
+    display: flex;
+}
+.waraper .remmember a{
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(26, 28, 29, 0.797);
+}
+.waraper .remmember a:hover{
+    color: #775a05c4;
+}
+.waraper button {
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid rgba(37, 3, 3, 0.679);
+    color: white;
+    background: transparent;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.waraper button:hover{
+    background: rgba(199, 137, 4, 0.51);
+}
+.waraper .register{
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.waraper .register a {
+    font-weight: 700;
+    color: rgb(245, 180, 0);
+}
+.waraper .register a:hover{
+    color: rgba(243, 237, 237, 0.238);
+}
+
