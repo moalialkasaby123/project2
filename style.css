@@ -62,6 +62,12 @@ body{
 }
 .waraper .remmember{
     display: flex;
+  justify-content: space-between;
+}
+.waraper .remmember label{
+    font-size: 15px;
+    font-weight: 600;
+
 }
 .waraper .remmember a{
     margin: 0 10px;
