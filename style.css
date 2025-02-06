@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('young-man-wearing-virtual-reality-goggles.webp'), linear-gradient(rgba(207, 177, 2, 0.419),rgba(228, 157, 3, 0.474);
+    background: url('young-man-wearing-virtual-reality-goggles.webp');
     background-position: center;
     background-size: cover;
     color: rgb(255, 255, 255);
